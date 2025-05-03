@@ -1,0 +1,29 @@
+{
+  "name": "behr-news",
+  "version": "1.0.0",
+  "description": "Business Environmental and Human Rights News",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx tsx src/index.ts",
+    "dev": "npx tsx --watch src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.ts"
+  },
+  "author": "Matthew Phillips",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "rss-parser": "^3.13.0",
+    "tsx": "^4.19.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
