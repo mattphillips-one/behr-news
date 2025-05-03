@@ -13,7 +13,7 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@esbuild/darwin-x64": "^0.25.3",
+    "@esbuild/linux-x64": "^0.25.3",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "rss-parser": "^3.13.0",
