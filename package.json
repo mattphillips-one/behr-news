@@ -4,7 +4,7 @@
   "description": "Business Environmental and Human Rights News",
   "main": "index.ts",
   "scripts": {
-    "start": "npx tsx src/index.ts",
+    "start": "npx tsx api/index.ts",
     "dev": "npx tsx --watch src/index.ts",
     "build": "tsc",
     "serve": "node dist/index.ts"
