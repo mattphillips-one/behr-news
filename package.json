@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "start": "npx tsx api/index.ts",
-    "dev": "npx tsx --watch src/index.ts",
+    "dev": "npx tsx --watch api/index.ts",
     "build": "tsc",
     "serve": "node dist/index.ts"
   },
@@ -13,6 +13,7 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@esbuild/darwin-x64": "^0.25.3",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "rss-parser": "^3.13.0",
